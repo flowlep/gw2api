@@ -1,5 +1,5 @@
 {
-    "name": "gw2treasures/gw2api",
+    "name": "flowlep/gw2api",
     "type": "library",
     "description": "PHP wrapper for the Guild Wars 2 API.",
     "keywords": ["guildwars2","guild wars 2","api","wrapper"],
