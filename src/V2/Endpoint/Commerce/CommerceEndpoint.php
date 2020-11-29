@@ -51,4 +51,14 @@ class CommerceEndpoint extends Endpoint {
     public function transactions( $apiKey ) {
         return new TransactionEndpoint( $this->getApi(), $apiKey );
     }
+
+    /**
+     * Current items and money waiting at the trading post
+     *
+     * @param string $apiKey
+     * @return DeliveryEndpoint
+     */
+    public function delivery( $apiKey ) {
+        return new DeliveryEndpoint( $this->getApi(), $apiKey );
+    }
 }
